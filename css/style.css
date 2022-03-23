@@ -12,7 +12,7 @@ body{
   height: 100vh;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin: 0%;
   background: #131313;
   color: #fff;
   font-size: 96px;
@@ -20,7 +20,7 @@ body{
   letter-spacing: -7px;
 }
 
-div{
+nav{
   animation: glitch 1s linear infinite;
 }
 
@@ -36,14 +36,14 @@ div{
   }
 }
 
-div:before,
-div:after{
+nav:before,
+nav:after{
   content: attr(title);
   position: absolute;
   left: 0;
 }
 
-div:before{
+nav:before{
   animation: glitchTop 1s linear infinite;
   clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
@@ -61,7 +61,7 @@ div:before{
   }
 }
 
-div:after{
+nav:after{
   animation: glitchBotom 1.5s linear infinite;
   clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
@@ -82,5 +82,6 @@ div:after{
 h1 {
 	font-size: 70px;
 	color: green;
-	padding-left: 700px;
+  padding-left: 30%;
+  margin:0%;
 }
